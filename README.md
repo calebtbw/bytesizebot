@@ -13,17 +13,17 @@ Currently, this auto-checkout bot will support Best Buy.
 | bestbuy.com |`✔`|`✔`| |
 
 ## Bytesize Bot Repository Link
-[View The Repo Here](https://github.com/calebtbw/Bytesize-Bot)
+[View The Repo Here](https://github.com/calebtbw/bytesizebot)
 
 ## Quick Install for Windows
 1. Make sure your Chrome browser is updated to the latest
 2. Open Powershell as Administrator within your desired directory for the application to live.
 3. Run the following commands: 
       ```
-      git clone https://github.com/calebtbw/Bytesize-Bot
+      git clone https://github.com/calebtbw/bytesizebot
       ```
       ```
-      cd Bytesize-Bot
+      cd bytesizebot
       ```
       ```
       python -m venv ./env

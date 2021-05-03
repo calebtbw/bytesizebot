@@ -103,7 +103,7 @@ class ProxiesPage(QtWidgets.QWidget):
         if proxies != "" and list_name != "":
             for item in proxies.splitlines():
                 if ":" not in item or item == "":
-                    QtWidgets.QMessageBox.critical(self, "Phoenix Bot", "Incorrect Proxies")
+                    QtWidgets.QMessageBox.critical(self, "Bytesize Bot", "Incorrect Proxies")
                     return
             proxies_data = {
                 "list_name": list_name,

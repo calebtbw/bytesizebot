@@ -61,7 +61,7 @@ class BestBuy:
         self.browser = self.init_driver()
         starting_msg = "Starting Best Buy Task"
         if settings.dont_buy:
-            starting_msg = "Starting Best Buy Task in dev mode - Phoenix Bot will not actually checkout. Check Settings page to disable Dev Mode"
+            starting_msg = "Starting Best Buy Task in dev mode - Bytesize Bot will not actually checkout. Check Settings page to disable Dev Mode"
         self.status_signal.emit(create_msg(starting_msg, "normal"))
 
 
